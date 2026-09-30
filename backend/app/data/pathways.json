@@ -1,0 +1,31 @@
+{
+  "_note": "Market reuse pathways that do not depend on a registered buyer in the network. Values are indicative Indian market ranges per tonne of by-product.",
+  "pathways": [
+    {"waste_name": "BF slag", "application": "Road sub-base / aggregate", "value_per_tonne": 350, "virgin_co2_per_tonne": 0.01,
+     "processing": [["Crushing & grading", 90]], "technical_fit": "high", "evidence": ["Gradation test", "Soundness / expansion test"],
+     "regulatory": ["IRC:SP:98 / MoRTH specification compliance"]},
+    {"waste_name": "Steel slag", "application": "Road aggregate", "value_per_tonne": 400, "virgin_co2_per_tonne": 0.01,
+     "processing": [["Weathering (volume stabilisation)", 150], ["Crushing & grading", 90]], "technical_fit": "high",
+     "evidence": ["Volume expansion test", "Leachate test"], "regulatory": ["IRC:SP:128 steel slag in roads guideline"]},
+    {"waste_name": "Steel slag", "application": "Metal recovery", "value_per_tonne": 700, "virgin_co2_per_tonne": 0.3,
+     "processing": [["Magnetic separation", 120], ["Crushing", 90], ["Metal sorting", 250]], "technical_fit": "medium",
+     "evidence": ["Fe content assay"], "regulatory": []},
+    {"waste_name": "Fly ash", "application": "Road embankment / structural fill", "value_per_tonne": 150, "virgin_co2_per_tonne": 0.01,
+     "processing": [], "technical_fit": "high", "evidence": ["Compaction test"], "regulatory": ["MoEFCC fly ash notification (2021) - 100% utilisation mandate"]},
+    {"waste_name": "Phosphogypsum", "application": "Soil amendment (sodic soils)", "value_per_tonne": 700, "virgin_co2_per_tonne": 0.05,
+     "processing": [["Neutralisation", 250], ["Drying & bagging", 250]], "technical_fit": "medium",
+     "evidence": ["Fluoride content", "Radioactivity test", "Heavy metals"], "regulatory": ["Fertiliser Control Order specification", "AERB radioactivity limit"]},
+    {"waste_name": "Mill scale", "application": "Sinter plant feed", "value_per_tonne": 3200, "virgin_co2_per_tonne": 0.15,
+     "processing": [["De-oiling", 200]], "technical_fit": "high", "evidence": ["Oil content", "Fe assay"], "regulatory": []},
+    {"waste_name": "Bagasse", "application": "Biomass pellets for co-firing", "value_per_tonne": 2600, "virgin_co2_per_tonne": 1.0,
+     "processing": [["Drying", 250], ["Pelletising", 450]], "technical_fit": "high", "evidence": ["Moisture", "Calorific value"], "regulatory": ["SAMARTH biomass co-firing mission norms"]},
+    {"waste_name": "Press mud", "application": "Compost / bio-manure", "value_per_tonne": 900, "virgin_co2_per_tonne": 0.3,
+     "processing": [["Composting", 300]], "technical_fit": "high", "evidence": ["NPK content"], "regulatory": ["FCO organic manure specification"]},
+    {"waste_name": "Food waste", "application": "Animal feed / compost", "value_per_tonne": 500, "virgin_co2_per_tonne": 0.2,
+     "processing": [["Segregation & shredding", 200]], "technical_fit": "medium", "evidence": ["Contaminant screening"], "regulatory": ["FSSAI / local body approval for feed use"]},
+    {"waste_name": "Lime sludge", "application": "Agricultural liming", "value_per_tonne": 400, "virgin_co2_per_tonne": 0.44,
+     "processing": [["Drying", 250]], "technical_fit": "medium", "evidence": ["CaO / heavy metals"], "regulatory": []},
+    {"waste_name": "Spent wash", "application": "Fertigation (after treatment)", "value_per_tonne": 150, "virgin_co2_per_tonne": 0.05,
+     "processing": [["Bio-methanation", 150]], "technical_fit": "medium", "evidence": ["BOD/COD", "K2O"], "regulatory": ["CPCB distillery effluent guidelines"]}
+  ]
+}

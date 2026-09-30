@@ -1,0 +1,1105 @@
+[
+ {
+  "industry_type": "cement",
+  "raw_material": "Pozzolana (clinker substitute)",
+  "consumption_factor": 0.25,
+  "required_spec": {
+   "SiO2": [
+    40,
+    65
+   ],
+   "Al2O3": [
+    15,
+    35
+   ],
+   "moisture": [
+    0,
+    5
+   ]
+  },
+  "virgin_price_per_tonne": 1200,
+  "virgin_co2_per_tonne": 0.85,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Fly ash",
+   "Bottom ash"
+  ]
+ },
+ {
+  "industry_type": "cement",
+  "raw_material": "Granulated slag",
+  "consumption_factor": 0.2,
+  "required_spec": {
+   "CaO": [
+    32,
+    48
+   ],
+   "SiO2": [
+    28,
+    40
+   ]
+  },
+  "virgin_price_per_tonne": 2200,
+  "virgin_co2_per_tonne": 0.8,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "BF slag",
+   "Steel slag"
+  ]
+ },
+ {
+  "industry_type": "cement",
+  "raw_material": "Mineral gypsum",
+  "consumption_factor": 0.04,
+  "required_spec": {
+   "CaO": [
+    28,
+    35
+   ],
+   "moisture": [
+    0,
+    18
+   ],
+   "purity_pct": [
+    85,
+    100
+   ]
+  },
+  "virgin_price_per_tonne": 2600,
+  "virgin_co2_per_tonne": 0.12,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Phosphogypsum",
+   "Chemical gypsum"
+  ]
+ },
+ {
+  "industry_type": "cement",
+  "raw_material": "Limestone",
+  "consumption_factor": 0.3,
+  "required_spec": {
+   "CaO": [
+    44,
+    55
+   ],
+   "moisture": [
+    0,
+    12
+   ]
+  },
+  "virgin_price_per_tonne": 1100,
+  "virgin_co2_per_tonne": 0.44,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Lime sludge",
+   "Cement kiln dust"
+  ]
+ },
+ {
+  "industry_type": "cement",
+  "raw_material": "Iron ore corrective",
+  "consumption_factor": 0.015,
+  "required_spec": {
+   "Fe2O3": [
+    60,
+    95
+   ]
+  },
+  "virgin_price_per_tonne": 5200,
+  "virgin_co2_per_tonne": 0.2,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Mill scale",
+   "Steel slag"
+  ]
+ },
+ {
+  "industry_type": "brick_kiln",
+  "raw_material": "Brick clay",
+  "consumption_factor": 0.6,
+  "required_spec": {
+   "SiO2": [
+    40,
+    70
+   ],
+   "moisture": [
+    0,
+    20
+   ]
+  },
+  "virgin_price_per_tonne": 650,
+  "virgin_co2_per_tonne": 0.08,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8,
+   0.1,
+   0.0,
+   0.0,
+   0.1,
+   0.6,
+   0.9,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Fly ash",
+   "Bottom ash",
+   "Foundry sand",
+   "Brick bats"
+  ]
+ },
+ {
+  "industry_type": "brick_kiln",
+  "raw_material": "Mineral gypsum",
+  "consumption_factor": 0.03,
+  "required_spec": {
+   "CaO": [
+    28,
+    35
+   ],
+   "moisture": [
+    0,
+    20
+   ],
+   "purity_pct": [
+    85,
+    100
+   ]
+  },
+  "virgin_price_per_tonne": 2600,
+  "virgin_co2_per_tonne": 0.12,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8,
+   0.1,
+   0.0,
+   0.0,
+   0.1,
+   0.6,
+   0.9,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Phosphogypsum",
+   "Chemical gypsum"
+  ]
+ },
+ {
+  "industry_type": "brick_kiln",
+  "raw_material": "Kiln fuel (coal)",
+  "consumption_factor": 0.12,
+  "required_spec": {
+   "calorific_value_MJkg": [
+    8,
+    30
+   ],
+   "moisture": [
+    0,
+    55
+   ]
+  },
+  "virgin_price_per_tonne": 3400,
+  "virgin_co2_per_tonne": 1.0,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8,
+   0.1,
+   0.0,
+   0.0,
+   0.1,
+   0.6,
+   0.9,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Bagasse",
+   "Press mud"
+  ]
+ },
+ {
+  "industry_type": "steel",
+  "raw_material": "Steel scrap",
+  "consumption_factor": 0.15,
+  "required_spec": {
+   "Fe_pct": [
+    90,
+    100
+   ]
+  },
+  "virgin_price_per_tonne": 31500,
+  "virgin_co2_per_tonne": 1.8,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Metal scrap"
+  ]
+ },
+ {
+  "industry_type": "steel",
+  "raw_material": "Limestone flux",
+  "consumption_factor": 0.08,
+  "required_spec": {
+   "CaO": [
+    40,
+    60
+   ]
+  },
+  "virgin_price_per_tonne": 1500,
+  "virgin_co2_per_tonne": 0.44,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Cement kiln dust",
+   "Lime sludge"
+  ]
+ },
+ {
+  "industry_type": "steel",
+  "raw_material": "Pickling acid",
+  "consumption_factor": 0.004,
+  "required_spec": {
+   "acid_pct": [
+    15,
+    98
+   ]
+  },
+  "virgin_price_per_tonne": 9000,
+  "virgin_co2_per_tonne": 0.3,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "industry_type": "steel",
+  "raw_material": "Iron ore fines",
+  "consumption_factor": 0.05,
+  "required_spec": {
+   "Fe2O3": [
+    60,
+    95
+   ]
+  },
+  "virgin_price_per_tonne": 5500,
+  "virgin_co2_per_tonne": 0.15,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Mill scale"
+  ]
+ },
+ {
+  "industry_type": "thermal_power",
+  "raw_material": "FGD limestone",
+  "consumption_factor": 12,
+  "required_spec": {
+   "CaO": [
+    40,
+    56
+   ]
+  },
+  "virgin_price_per_tonne": 1400,
+  "virgin_co2_per_tonne": 0.44,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Cement kiln dust",
+   "Lime sludge"
+  ]
+ },
+ {
+  "industry_type": "thermal_power",
+  "raw_material": "Coal (biomass co-firing)",
+  "consumption_factor": 40,
+  "required_spec": {
+   "calorific_value_MJkg": [
+    8,
+    30
+   ],
+   "moisture": [
+    0,
+    55
+   ]
+  },
+  "virgin_price_per_tonne": 3400,
+  "virgin_co2_per_tonne": 1.0,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Bagasse"
+  ]
+ },
+ {
+  "industry_type": "chemical",
+  "raw_material": "Process steam",
+  "consumption_factor": 1.2,
+  "required_spec": {
+   "temperature_C": [
+    150,
+    600
+   ]
+  },
+  "virgin_price_per_tonne": 2000,
+  "virgin_co2_per_tonne": 0.35,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Waste heat"
+  ]
+ },
+ {
+  "industry_type": "chemical",
+  "raw_material": "Industrial CO2",
+  "consumption_factor": 0.05,
+  "required_spec": {
+   "CO2_pct": [
+    12,
+    100
+   ]
+  },
+  "virgin_price_per_tonne": 6500,
+  "virgin_co2_per_tonne": 1.0,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "CO2 off-gas"
+  ]
+ },
+ {
+  "industry_type": "chemical",
+  "raw_material": "Hydrated lime",
+  "consumption_factor": 0.03,
+  "required_spec": {
+   "CaO": [
+    40,
+    75
+   ]
+  },
+  "virgin_price_per_tonne": 6500,
+  "virgin_co2_per_tonne": 0.75,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Cement kiln dust",
+   "Lime sludge"
+  ]
+ },
+ {
+  "industry_type": "fertilizer_phosphate",
+  "raw_material": "Sulphuric acid",
+  "consumption_factor": 0.9,
+  "required_spec": {
+   "acid_pct": [
+    40,
+    98
+   ]
+  },
+  "virgin_price_per_tonne": 7500,
+  "virgin_co2_per_tonne": 0.1,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "industry_type": "fertilizer_phosphate",
+  "raw_material": "Organic manure filler",
+  "consumption_factor": 0.5,
+  "required_spec": {
+   "organic_pct": [
+    30,
+    90
+   ],
+   "moisture": [
+    0,
+    75
+   ]
+  },
+  "virgin_price_per_tonne": 2500,
+  "virgin_co2_per_tonne": 0.3,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Press mud",
+   "Digestate",
+   "Yeast sludge"
+  ]
+ },
+ {
+  "industry_type": "fertilizer_phosphate",
+  "raw_material": "Potash (K2O source)",
+  "consumption_factor": 1.5,
+  "required_spec": {
+   "K2O_pct": [
+    1,
+    60
+   ]
+  },
+  "virgin_price_per_tonne": 1100,
+  "virgin_co2_per_tonne": 0.25,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Spent wash"
+  ]
+ },
+ {
+  "industry_type": "paper_mill",
+  "raw_material": "Wood fibre",
+  "consumption_factor": 2.0,
+  "required_spec": {
+   "organic_pct": [
+    70,
+    100
+   ],
+   "moisture": [
+    0,
+    55
+   ]
+  },
+  "virgin_price_per_tonne": 3800,
+  "virgin_co2_per_tonne": 0.4,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Bagasse"
+  ]
+ },
+ {
+  "industry_type": "paper_mill",
+  "raw_material": "CO2 for PCC",
+  "consumption_factor": 0.08,
+  "required_spec": {
+   "CO2_pct": [
+    15,
+    100
+   ]
+  },
+  "virgin_price_per_tonne": 6500,
+  "virgin_co2_per_tonne": 1.0,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "CO2 off-gas"
+  ]
+ },
+ {
+  "industry_type": "paper_mill",
+  "raw_material": "Boiler fuel (coal)",
+  "consumption_factor": 0.6,
+  "required_spec": {
+   "calorific_value_MJkg": [
+    8,
+    30
+   ],
+   "moisture": [
+    0,
+    55
+   ]
+  },
+  "virgin_price_per_tonne": 3400,
+  "virgin_co2_per_tonne": 1.0,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Bagasse",
+   "Press mud"
+  ]
+ },
+ {
+  "industry_type": "sugar_mill",
+  "raw_material": "Clarification lime",
+  "consumption_factor": 0.002,
+  "required_spec": {
+   "CaO": [
+    40,
+    60
+   ]
+  },
+  "virgin_price_per_tonne": 6500,
+  "virgin_co2_per_tonne": 0.8,
+  "seasonality": [
+   1.0,
+   1.0,
+   0.95,
+   0.8,
+   0.3,
+   0.05,
+   0.0,
+   0.0,
+   0.05,
+   0.4,
+   0.9,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Lime sludge",
+   "Cement kiln dust"
+  ]
+ },
+ {
+  "industry_type": "distillery",
+  "raw_material": "Sulphuric acid",
+  "consumption_factor": 0.05,
+  "required_spec": {
+   "acid_pct": [
+    30,
+    98
+   ]
+  },
+  "virgin_price_per_tonne": 7500,
+  "virgin_co2_per_tonne": 0.1,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   0.9,
+   0.5,
+   0.1,
+   0.05,
+   0.05,
+   0.1,
+   0.5,
+   0.9,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "industry_type": "distillery",
+  "raw_material": "Molasses feedstock",
+  "consumption_factor": 4.0,
+  "required_spec": {
+   "organic_pct": [
+    40,
+    70
+   ]
+  },
+  "virgin_price_per_tonne": 9500,
+  "virgin_co2_per_tonne": 0.2,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   0.9,
+   0.5,
+   0.1,
+   0.05,
+   0.05,
+   0.1,
+   0.5,
+   0.9,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Molasses"
+  ]
+ },
+ {
+  "industry_type": "data_centre",
+  "raw_material": "Backup generator fuel",
+  "consumption_factor": 12,
+  "required_spec": {},
+  "virgin_price_per_tonne": 18000,
+  "virgin_co2_per_tonne": 0.8,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Surplus biogas"
+  ]
+ },
+ {
+  "industry_type": "food_processing",
+  "raw_material": "Process heat (drying)",
+  "consumption_factor": 0.5,
+  "required_spec": {
+   "temperature_C": [
+    45,
+    300
+   ]
+  },
+  "virgin_price_per_tonne": 2800,
+  "virgin_co2_per_tonne": 0.3,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Waste heat"
+  ]
+ },
+ {
+  "industry_type": "food_processing",
+  "raw_material": "Fresh produce",
+  "consumption_factor": 1.2,
+  "required_spec": {
+   "organic_pct": [
+    80,
+    100
+   ],
+   "moisture": [
+    60,
+    95
+   ]
+  },
+  "virgin_price_per_tonne": 9000,
+  "virgin_co2_per_tonne": 0.4,
+  "seasonality": [
+   0.7,
+   0.8,
+   1.0,
+   1.0,
+   1.0,
+   0.8,
+   0.7,
+   0.7,
+   0.8,
+   0.9,
+   0.8,
+   0.7
+  ],
+  "accepted_substitutes": [
+   "Off-grade produce"
+  ]
+ },
+ {
+  "industry_type": "auto_components",
+  "raw_material": "Process heat",
+  "consumption_factor": 0.3,
+  "required_spec": {
+   "temperature_C": [
+    80,
+    400
+   ]
+  },
+  "virgin_price_per_tonne": 2800,
+  "virgin_co2_per_tonne": 0.3,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Waste heat"
+  ]
+ },
+ {
+  "industry_type": "greenhouse",
+  "raw_material": "Heating fuel (LPG)",
+  "consumption_factor": 25,
+  "required_spec": {
+   "temperature_C": [
+    35,
+    200
+   ]
+  },
+  "virgin_price_per_tonne": 6000,
+  "virgin_co2_per_tonne": 0.25,
+  "seasonality": [
+   1.0,
+   0.9,
+   0.6,
+   0.3,
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.3,
+   0.5,
+   0.8,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Waste heat"
+  ]
+ },
+ {
+  "industry_type": "greenhouse",
+  "raw_material": "CO2 enrichment",
+  "consumption_factor": 3,
+  "required_spec": {
+   "CO2_pct": [
+    12,
+    100
+   ]
+  },
+  "virgin_price_per_tonne": 9000,
+  "virgin_co2_per_tonne": 1.0,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "CO2 off-gas"
+  ]
+ },
+ {
+  "industry_type": "greenhouse",
+  "raw_material": "Fertilizer / compost",
+  "consumption_factor": 6,
+  "required_spec": {
+   "organic_pct": [
+    30,
+    90
+   ]
+  },
+  "virgin_price_per_tonne": 4000,
+  "virgin_co2_per_tonne": 0.35,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Digestate",
+   "Press mud"
+  ]
+ },
+ {
+  "industry_type": "biogas_plant",
+  "raw_material": "Organic feedstock",
+  "consumption_factor": 1.0,
+  "required_spec": {
+   "organic_pct": [
+    15,
+    95
+   ],
+   "moisture": [
+    50,
+    95
+   ]
+  },
+  "virgin_price_per_tonne": 800,
+  "virgin_co2_per_tonne": 0.1,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "accepted_substitutes": [
+   "Food waste",
+   "Press mud",
+   "Off-grade produce",
+   "Crop residue",
+   "Fibre sludge",
+   "Yeast sludge",
+   "Spent wash"
+  ]
+ }
+]

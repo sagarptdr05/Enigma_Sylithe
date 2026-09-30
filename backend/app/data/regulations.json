@@ -1,0 +1,36 @@
+{
+ "categories": {
+  "spent_acid": {
+   "label": "Spent acid (HOWR 2016 Schedule I style)",
+   "permissions": [
+    "MPCB authorisation under Rule 6 (generator)",
+    "Rule 9 utilisation permission (SOP-based)",
+    "Manifest system for transport (Form 10)",
+    "Actual user registration of receiver"
+   ]
+  },
+  "phosphogypsum": {
+   "label": "Phosphogypsum (HOWR 2016 Schedule I style, fluoride/radionuclide screening)",
+   "permissions": [
+    "MPCB authorisation under Rule 6",
+    "Rule 9 utilisation permission (CPCB SOP for phosphogypsum)",
+    "Manifest system for transport (Form 10)",
+    "Radioactivity test certificate (AERB guideline)"
+   ]
+  },
+  "chemical_sludge": {
+   "label": "Chemical / ETP sludge (HOWR 2016 Schedule I style)",
+   "permissions": [
+    "MPCB authorisation under Rule 6",
+    "Rule 9 utilisation permission",
+    "Manifest system for transport (Form 10)",
+    "TCLP leachate test report"
+   ]
+  }
+ },
+ "waste_map": {
+  "Spent acid": "spent_acid",
+  "Phosphogypsum": "phosphogypsum",
+  "Chemical gypsum": "chemical_sludge"
+ }
+}

@@ -1,0 +1,1135 @@
+[
+ {
+  "id": 1,
+  "name": "Taloja Captive Power Co. Ltd",
+  "type": "thermal_power",
+  "cluster": "Taloja MIDC",
+  "address": "Plot T-73, Taloja MIDC",
+  "lat": 19.09151,
+  "lon": 73.12436,
+  "capacity": 205,
+  "capacity_unit": "MW",
+  "process_description": "Pulverised coal-fired boilers drive steam turbines; ash is collected in ESPs and the bottom hopper. A wet limestone FGD unit is being commissioned.",
+  "declared_wastes": []
+ },
+ {
+  "id": 2,
+  "name": "Panvel Cogen Energy Pvt Ltd",
+  "type": "thermal_power",
+  "cluster": "Taloja MIDC",
+  "address": "Plot M-11, Taloja MIDC",
+  "lat": 19.07338,
+  "lon": 73.12167,
+  "capacity": 65,
+  "capacity_unit": "MW",
+  "process_description": "Pulverised coal-fired boilers drive steam turbines; ash is collected in ESPs and the bottom hopper. A wet limestone FGD unit is being commissioned.",
+  "declared_wastes": [
+   "Fly ash"
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Navi Mumbai Industrial Power Ltd",
+  "type": "thermal_power",
+  "cluster": "Taloja MIDC",
+  "address": "Plot M-59, Taloja MIDC",
+  "lat": 19.09414,
+  "lon": 73.10023,
+  "capacity": 225,
+  "capacity_unit": "MW",
+  "process_description": "Captive coal-fired cogeneration plant supplying steam and power to the industrial estate. Flue gas passes through electrostatic precipitators before the stack.",
+  "declared_wastes": []
+ },
+ {
+  "id": 4,
+  "name": "Raigad Cement Works Ltd",
+  "type": "cement",
+  "cluster": "Taloja MIDC",
+  "address": "Plot C-74, Taloja MIDC",
+  "lat": 19.06868,
+  "lon": 73.11368,
+  "capacity": 95750,
+  "capacity_unit": "t cement/month",
+  "process_description": "A cement grinding and blending unit that also operates a small calciner line. Clinker, gypsum and additives are ball-milled into OPC and PPC grades.",
+  "declared_wastes": []
+ },
+ {
+  "id": 5,
+  "name": "Konkan Blended Cements Pvt Ltd",
+  "type": "cement",
+  "cluster": "Taloja MIDC",
+  "address": "Plot C-14, Taloja MIDC",
+  "lat": 19.0843,
+  "lon": 73.13503,
+  "capacity": 67500,
+  "capacity_unit": "t cement/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 6,
+  "name": "Trimurti Slag Cement Pvt Ltd",
+  "type": "cement",
+  "cluster": "Taloja MIDC",
+  "address": "Plot C-150, Taloja MIDC",
+  "lat": 19.06665,
+  "lon": 73.1082,
+  "capacity": 84250,
+  "capacity_unit": "t cement/month",
+  "process_description": "Integrated dry-process kiln with a 5-stage preheater producing clinker, which is ground with gypsum and pozzolana into PPC. Limestone is quarried and crushed on site.",
+  "declared_wastes": []
+ },
+ {
+  "id": 7,
+  "name": "Sahyadri Cement Grinding Unit",
+  "type": "cement",
+  "cluster": "Taloja MIDC",
+  "address": "Plot A-28, Taloja MIDC",
+  "lat": 19.08788,
+  "lon": 73.11313,
+  "capacity": 46500,
+  "capacity_unit": "t cement/month",
+  "process_description": "A cement grinding and blending unit that also operates a small calciner line. Clinker, gypsum and additives are ball-milled into OPC and PPC grades.",
+  "declared_wastes": []
+ },
+ {
+  "id": 8,
+  "name": "Alkyl Speciality Chemicals Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot C-177, Taloja MIDC",
+  "lat": 19.08693,
+  "lon": 73.10616,
+  "capacity": 1080,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 9,
+  "name": "Navkar Dye Intermediates Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot M-72, Taloja MIDC",
+  "lat": 19.08804,
+  "lon": 73.12005,
+  "capacity": 900,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 10,
+  "name": "Sunrise Organics Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot T-61, Taloja MIDC",
+  "lat": 19.09398,
+  "lon": 73.11444,
+  "capacity": 3420,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 11,
+  "name": "Kalash Pharma Chem Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot C-57, Taloja MIDC",
+  "lat": 19.07924,
+  "lon": 73.13292,
+  "capacity": 3680,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 12,
+  "name": "Vedant Sulphonates Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot A-146, Taloja MIDC",
+  "lat": 19.09732,
+  "lon": 73.11438,
+  "capacity": 1280,
+  "capacity_unit": "t product/month",
+  "process_description": "Specialty chemicals plant with sulphuric acid based reactions, solvent recovery and thermic fluid heaters. Spent acid is currently sent to a TSDF.",
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 13,
+  "name": "Orbit Agrochem Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot M-26, Taloja MIDC",
+  "lat": 19.096,
+  "lon": 73.1055,
+  "capacity": 3990,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 14,
+  "name": "Pentagon Resins & Polymers Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot T-101, Taloja MIDC",
+  "lat": 19.08405,
+  "lon": 73.13496,
+  "capacity": 2820,
+  "capacity_unit": "t product/month",
+  "process_description": "Specialty chemicals plant with sulphuric acid based reactions, solvent recovery and thermic fluid heaters. Spent acid is currently sent to a TSDF.",
+  "declared_wastes": []
+ },
+ {
+  "id": 15,
+  "name": "Ganesh Pigments Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Taloja MIDC",
+  "address": "Plot T-177, Taloja MIDC",
+  "lat": 19.09203,
+  "lon": 73.12767,
+  "capacity": 340,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 16,
+  "name": "Deccan Phosphates & Fertilizers Ltd",
+  "type": "fertilizer_phosphate",
+  "cluster": "Taloja MIDC",
+  "address": "Plot A-119, Taloja MIDC",
+  "lat": 19.09999,
+  "lon": 73.12743,
+  "capacity": 3175,
+  "capacity_unit": "t P2O5/month",
+  "process_description": "Single super phosphate and granulated NPK unit using sulphuric acid digestion of rock phosphate. Organic granulated fertilizer line blends filler materials.",
+  "declared_wastes": [
+   "Phosphogypsum"
+  ]
+ },
+ {
+  "id": 17,
+  "name": "Krishi Rasayan Fertilizers Pvt Ltd",
+  "type": "fertilizer_phosphate",
+  "cluster": "Taloja MIDC",
+  "address": "Plot C-166, Taloja MIDC",
+  "lat": 19.0705,
+  "lon": 73.12745,
+  "capacity": 2425,
+  "capacity_unit": "t P2O5/month",
+  "process_description": "Wet-process phosphoric acid plant reacting rock phosphate with sulphuric acid, followed by DAP/NPK granulation. Filtration of the reaction slurry separates a gypsum cake.",
+  "declared_wastes": [
+   "Phosphogypsum"
+  ]
+ },
+ {
+  "id": 18,
+  "name": "Bhoomi Agro Fertilizers Ltd",
+  "type": "fertilizer_phosphate",
+  "cluster": "Taloja MIDC",
+  "address": "Plot T-156, Taloja MIDC",
+  "lat": 19.06903,
+  "lon": 73.11307,
+  "capacity": 5125,
+  "capacity_unit": "t P2O5/month",
+  "process_description": "Wet-process phosphoric acid plant reacting rock phosphate with sulphuric acid, followed by DAP/NPK granulation. Filtration of the reaction slurry separates a gypsum cake.",
+  "declared_wastes": []
+ },
+ {
+  "id": 19,
+  "name": "Shree Tarapur Re-Rolling Mills Pvt Ltd",
+  "type": "steel",
+  "cluster": "Taloja MIDC",
+  "address": "Plot A-17, Taloja MIDC",
+  "lat": 19.06808,
+  "lon": 73.1175,
+  "capacity": 37850,
+  "capacity_unit": "t crude steel/month",
+  "process_description": "The plant runs a 37,850-t/month blast furnace - basic oxygen furnace route followed by a hot strip rolling mill. Iron ore sinter and coke are charged to the furnace; hot metal is refined with lime flux and the slabs are reheated before rolling.",
+  "declared_wastes": [
+   "BF slag"
+  ]
+ },
+ {
+  "id": 20,
+  "name": "Palghar Alloys & Castings Pvt Ltd",
+  "type": "steel",
+  "cluster": "Taloja MIDC",
+  "address": "Plot A-35, Taloja MIDC",
+  "lat": 19.09909,
+  "lon": 73.10594,
+  "capacity": 36150,
+  "capacity_unit": "t crude steel/month",
+  "process_description": null,
+  "declared_wastes": [
+   "BF slag"
+  ]
+ },
+ {
+  "id": 21,
+  "name": "Konkan Ispat Steel Ltd",
+  "type": "steel",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot G-12, Tarapur MIDC, Boisar",
+  "lat": 19.8155,
+  "lon": 72.7195,
+  "capacity": 60000,
+  "capacity_unit": "t crude steel/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 22,
+  "name": "Vasundhara Ispat Pvt Ltd",
+  "type": "steel",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot N-115, Tarapur MIDC, Boisar",
+  "lat": 19.81045,
+  "lon": 72.71393,
+  "capacity": 32850,
+  "capacity_unit": "t crude steel/month",
+  "process_description": null,
+  "declared_wastes": [
+   "BF slag"
+  ]
+ },
+ {
+  "id": 23,
+  "name": "Navi Mumbai TMT Rolling Mills Pvt Ltd",
+  "type": "steel",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot W-61, Tarapur MIDC, Boisar",
+  "lat": 19.79623,
+  "lon": 72.72865,
+  "capacity": 8800,
+  "capacity_unit": "t crude steel/month",
+  "process_description": null,
+  "declared_wastes": [
+   "BF slag"
+  ]
+ },
+ {
+  "id": 24,
+  "name": "Deccan Ferro Alloys Ltd",
+  "type": "steel",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot E-87, Tarapur MIDC, Boisar",
+  "lat": 19.80491,
+  "lon": 72.72153,
+  "capacity": 10500,
+  "capacity_unit": "t crude steel/month",
+  "process_description": "The plant runs a 10,500-t/month blast furnace - basic oxygen furnace route followed by a hot strip rolling mill. Iron ore sinter and coke are charged to the furnace; hot metal is refined with lime flux and the slabs are reheated before rolling.",
+  "declared_wastes": [
+   "BF slag"
+  ]
+ },
+ {
+  "id": 25,
+  "name": "Kalamboli Steel Processors Pvt Ltd",
+  "type": "steel",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot W-150, Tarapur MIDC, Boisar",
+  "lat": 19.82184,
+  "lon": 72.71209,
+  "capacity": 34750,
+  "capacity_unit": "t crude steel/month",
+  "process_description": "Induction and electric arc furnaces melt purchased scrap and sponge iron, followed by ladle refining and continuous casting of billets. Billets are reheated and rolled into TMT bars.",
+  "declared_wastes": [
+   "BF slag"
+  ]
+ },
+ {
+  "id": 26,
+  "name": "Crystal Acid Works Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot T-108, Tarapur MIDC, Boisar",
+  "lat": 19.81755,
+  "lon": 72.73749,
+  "capacity": 1890,
+  "capacity_unit": "t product/month",
+  "process_description": "Batch and continuous synthesis of dye intermediates using sulphonation and nitration. Acid streams are neutralised with lime in the ETP.",
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 27,
+  "name": "Meera Fine Chemicals LLP",
+  "type": "chemical",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot N-30, Tarapur MIDC, Boisar",
+  "lat": 19.81316,
+  "lon": 72.71049,
+  "capacity": 1790,
+  "capacity_unit": "t product/month",
+  "process_description": "Batch and continuous synthesis of dye intermediates using sulphonation and nitration. Acid streams are neutralised with lime in the ETP.",
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 28,
+  "name": "Shubham Bulk Drugs Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot E-116, Tarapur MIDC, Boisar",
+  "lat": 19.82339,
+  "lon": 72.70913,
+  "capacity": 2010,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 29,
+  "name": "Anmol Textile Auxiliaries Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot E-26, Tarapur MIDC, Boisar",
+  "lat": 19.82316,
+  "lon": 72.71132,
+  "capacity": 2300,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 30,
+  "name": "Zenith Catalysts Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot T-18, Tarapur MIDC, Boisar",
+  "lat": 19.82753,
+  "lon": 72.71449,
+  "capacity": 1090,
+  "capacity_unit": "t product/month",
+  "process_description": "Batch and continuous synthesis of dye intermediates using sulphonation and nitration. Acid streams are neutralised with lime in the ETP.",
+  "declared_wastes": []
+ },
+ {
+  "id": 31,
+  "name": "Trident Nitro Compounds Pvt Ltd",
+  "type": "chemical",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot T-145, Tarapur MIDC, Boisar",
+  "lat": 19.81157,
+  "lon": 72.71208,
+  "capacity": 1980,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 32,
+  "name": "Coastal Peroxides Ltd",
+  "type": "chemical",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot W-18, Tarapur MIDC, Boisar",
+  "lat": 19.79783,
+  "lon": 72.72469,
+  "capacity": 520,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent acid"
+  ]
+ },
+ {
+  "id": 33,
+  "name": "Mahalaxmi Brick Works",
+  "type": "brick_kiln",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot G-17, Tarapur MIDC, Boisar",
+  "lat": 19.79856,
+  "lon": 72.71195,
+  "capacity": 2675,
+  "capacity_unit": "t bricks/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 34,
+  "name": "Jyotiba Brick Works",
+  "type": "brick_kiln",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot G-106, Tarapur MIDC, Boisar",
+  "lat": 19.81453,
+  "lon": 72.70727,
+  "capacity": 2275,
+  "capacity_unit": "t bricks/month",
+  "process_description": "Zig-zag fired clay brick kiln operating October to May. Clay is moulded, sun-dried and fired using coal and biomass.",
+  "declared_wastes": []
+ },
+ {
+  "id": 35,
+  "name": "Siddhi Brick Industries",
+  "type": "brick_kiln",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot W-136, Tarapur MIDC, Boisar",
+  "lat": 19.80254,
+  "lon": 72.72892,
+  "capacity": 2250,
+  "capacity_unit": "t bricks/month",
+  "process_description": "Fixed-chimney Bull's trench kiln producing red clay bricks; operations stop during monsoon.",
+  "declared_wastes": []
+ },
+ {
+  "id": 36,
+  "name": "Boisar Clay Products",
+  "type": "brick_kiln",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot N-120, Tarapur MIDC, Boisar",
+  "lat": 19.7963,
+  "lon": 72.72588,
+  "capacity": 1675,
+  "capacity_unit": "t bricks/month",
+  "process_description": "Zig-zag fired clay brick kiln operating October to May. Clay is moulded, sun-dried and fired using coal and biomass.",
+  "declared_wastes": []
+ },
+ {
+  "id": 37,
+  "name": "Sagar Cements (Taloja) Pvt Ltd",
+  "type": "cement",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot W-57, Tarapur MIDC, Boisar",
+  "lat": 19.82586,
+  "lon": 72.73419,
+  "capacity": 48000,
+  "capacity_unit": "t cement/month",
+  "process_description": "Integrated dry-process kiln with a 5-stage preheater producing clinker, which is ground with gypsum and pozzolana into PPC. Limestone is quarried and crushed on site.",
+  "declared_wastes": []
+ },
+ {
+  "id": 38,
+  "name": "Boisar Portland Cements Ltd",
+  "type": "cement",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot G-115, Tarapur MIDC, Boisar",
+  "lat": 19.81851,
+  "lon": 72.72557,
+  "capacity": 69500,
+  "capacity_unit": "t cement/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 39,
+  "name": "Tarapur Kraft Papers Pvt Ltd",
+  "type": "paper_mill",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot E-173, Tarapur MIDC, Boisar",
+  "lat": 19.80558,
+  "lon": 72.72723,
+  "capacity": 6400,
+  "capacity_unit": "t paper/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 40,
+  "name": "Tarapur Captive Energy Pvt Ltd",
+  "type": "thermal_power",
+  "cluster": "Tarapur MIDC",
+  "address": "Plot E-30, Tarapur MIDC, Boisar",
+  "lat": 19.80097,
+  "lon": 72.71502,
+  "capacity": 75,
+  "capacity_unit": "MW",
+  "process_description": null,
+  "declared_wastes": [
+   "Fly ash"
+  ]
+ },
+ {
+  "id": 41,
+  "name": "Shri Panchganga Sahakari Sakhar Karkhana Ltd",
+  "type": "sugar_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 743, Warananagar",
+  "lat": 16.85292,
+  "lon": 74.19966,
+  "capacity": 152250,
+  "capacity_unit": "t cane crushed/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 42,
+  "name": "Dudhganga Valley Sugars Ltd",
+  "type": "sugar_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 134, Shiroli MIDC, Kolhapur",
+  "lat": 16.75488,
+  "lon": 74.25132,
+  "capacity": 265250,
+  "capacity_unit": "t cane crushed/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Bagasse",
+   "Press mud"
+  ]
+ },
+ {
+  "id": 43,
+  "name": "Shirol Sugars & Allied Ltd",
+  "type": "sugar_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 308, Ichalkaranji",
+  "lat": 16.69155,
+  "lon": 74.45783,
+  "capacity": 104500,
+  "capacity_unit": "t cane crushed/month",
+  "process_description": "Double sulphitation mill with a juice clarifier and rotary vacuum filters. Final molasses is sold to nearby distilleries.",
+  "declared_wastes": [
+   "Bagasse",
+   "Press mud"
+  ]
+ },
+ {
+  "id": 44,
+  "name": "Kagal Sugar & Power Ltd",
+  "type": "sugar_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 747, Warananagar",
+  "lat": 16.86137,
+  "lon": 74.21004,
+  "capacity": 92000,
+  "capacity_unit": "t cane crushed/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Bagasse",
+   "Press mud"
+  ]
+ },
+ {
+  "id": 45,
+  "name": "Hatkanangale Sahakari Sakhar Karkhana Ltd",
+  "type": "sugar_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 170, Shiroli MIDC, Kolhapur",
+  "lat": 16.75697,
+  "lon": 74.27388,
+  "capacity": 108250,
+  "capacity_unit": "t cane crushed/month",
+  "process_description": "Double sulphitation mill with a juice clarifier and rotary vacuum filters. Final molasses is sold to nearby distilleries.",
+  "declared_wastes": []
+ },
+ {
+  "id": 46,
+  "name": "Jaysingpur Sugar Industries Ltd",
+  "type": "sugar_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 255, Ichalkaranji",
+  "lat": 16.69501,
+  "lon": 74.45561,
+  "capacity": 277250,
+  "capacity_unit": "t cane crushed/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Bagasse",
+   "Press mud"
+  ]
+ },
+ {
+  "id": 47,
+  "name": "Warananagar Sugars & Cogen Pvt Ltd",
+  "type": "sugar_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 675, Warananagar",
+  "lat": 16.87277,
+  "lon": 74.1921,
+  "capacity": 271750,
+  "capacity_unit": "t cane crushed/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Bagasse",
+   "Press mud"
+  ]
+ },
+ {
+  "id": 48,
+  "name": "Panchganga Distilleries Pvt Ltd",
+  "type": "distillery",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 221, Kagal-Hatkanangale MIDC",
+  "lat": 16.60099,
+  "lon": 74.33946,
+  "capacity": 3780,
+  "capacity_unit": "kL ethanol/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent wash"
+  ]
+ },
+ {
+  "id": 49,
+  "name": "Sahyadri Bio-Ethanol Ltd",
+  "type": "distillery",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 861, Hatkanangale",
+  "lat": 16.7494,
+  "lon": 74.43993,
+  "capacity": 4250,
+  "capacity_unit": "kL ethanol/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Spent wash"
+  ]
+ },
+ {
+  "id": 50,
+  "name": "Krishna Valley Spirits Pvt Ltd",
+  "type": "distillery",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 431, Jaysingpur",
+  "lat": 16.79434,
+  "lon": 74.5489,
+  "capacity": 3420,
+  "capacity_unit": "kL ethanol/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 51,
+  "name": "Kolhapur Ethanol & Chemicals Ltd",
+  "type": "distillery",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 352, Kagal-Hatkanangale MIDC",
+  "lat": 16.63485,
+  "lon": 74.31892,
+  "capacity": 2560,
+  "capacity_unit": "kL ethanol/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 52,
+  "name": "Kolhapur Agro Papers Ltd",
+  "type": "paper_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 325, Jaysingpur",
+  "lat": 16.79868,
+  "lon": 74.55116,
+  "capacity": 4500,
+  "capacity_unit": "t paper/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Lime sludge"
+  ]
+ },
+ {
+  "id": 53,
+  "name": "Ichalkaranji Duplex Boards Pvt Ltd",
+  "type": "paper_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 589, Kagal-Hatkanangale MIDC",
+  "lat": 16.60461,
+  "lon": 74.34882,
+  "capacity": 4500,
+  "capacity_unit": "t paper/month",
+  "process_description": "Agro-residue and recycled-fibre based kraft mill with a lime kiln and chemical recovery boiler. Causticising generates lime mud and effluent treatment produces fibre sludge.",
+  "declared_wastes": [
+   "Lime sludge"
+  ]
+ },
+ {
+  "id": 54,
+  "name": "Warna Valley Paper Mills Ltd",
+  "type": "paper_mill",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 311, Hatkanangale",
+  "lat": 16.73383,
+  "lon": 74.46146,
+  "capacity": 8700,
+  "capacity_unit": "t paper/month",
+  "process_description": "Writing and printing paper mill using wood pulp and imported fibre with an in-house PCC plant. Coal-fired boilers supply process steam.",
+  "declared_wastes": [
+   "Lime sludge"
+  ]
+ },
+ {
+  "id": 55,
+  "name": "Panchganga Phosphates Pvt Ltd",
+  "type": "fertilizer_phosphate",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 158, Shiroli MIDC, Kolhapur",
+  "lat": 16.73764,
+  "lon": 74.27126,
+  "capacity": 5925,
+  "capacity_unit": "t P2O5/month",
+  "process_description": "Wet-process phosphoric acid plant reacting rock phosphate with sulphuric acid, followed by DAP/NPK granulation. Filtration of the reaction slurry separates a gypsum cake.",
+  "declared_wastes": [
+   "Phosphogypsum"
+  ]
+ },
+ {
+  "id": 56,
+  "name": "Shetkari Organo-Mineral Fertilizers Pvt Ltd",
+  "type": "fertilizer_phosphate",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 591, Ichalkaranji",
+  "lat": 16.70321,
+  "lon": 74.46711,
+  "capacity": 5700,
+  "capacity_unit": "t P2O5/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Phosphogypsum"
+  ]
+ },
+ {
+  "id": 57,
+  "name": "Shivshakti Brick Kiln",
+  "type": "brick_kiln",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 720, Ichalkaranji",
+  "lat": 16.69369,
+  "lon": 74.4649,
+  "capacity": 1750,
+  "capacity_unit": "t bricks/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 58,
+  "name": "Omkar Clay Bricks Pvt Ltd",
+  "type": "brick_kiln",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 559, Warananagar",
+  "lat": 16.85479,
+  "lon": 74.20592,
+  "capacity": 2775,
+  "capacity_unit": "t bricks/month",
+  "process_description": "Fixed-chimney Bull's trench kiln producing red clay bricks; operations stop during monsoon.",
+  "declared_wastes": []
+ },
+ {
+  "id": 59,
+  "name": "Durga Bricks & Blocks",
+  "type": "brick_kiln",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 720, Shiroli MIDC, Kolhapur",
+  "lat": 16.75032,
+  "lon": 74.27708,
+  "capacity": 1225,
+  "capacity_unit": "t bricks/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 60,
+  "name": "Palghar Red Bricks Co.",
+  "type": "brick_kiln",
+  "cluster": "Kolhapur Agro Belt",
+  "address": "Gat No. 601, Ichalkaranji",
+  "lat": 16.68412,
+  "lon": 74.45131,
+  "capacity": 1450,
+  "capacity_unit": "t bricks/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 61,
+  "name": "NexGen Chakan Data Park",
+  "type": "data_centre",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 369, Chakan MIDC",
+  "lat": 18.76203,
+  "lon": 73.84045,
+  "capacity": 26.0,
+  "capacity_unit": "MW IT load",
+  "process_description": "Hyperscale data hall using liquid-to-air cooling; return water leaves at about 45 C. Backup is diesel gensets tested monthly.",
+  "declared_wastes": []
+ },
+ {
+  "id": 62,
+  "name": "Cloudstack DC Campus Mahalunge",
+  "type": "data_centre",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 793, Mahalunge",
+  "lat": 18.72281,
+  "lon": 73.80393,
+  "capacity": 38.5,
+  "capacity_unit": "MW IT load",
+  "process_description": "Tier-III colocation data centre with chilled-water cooling and cooling towers rejecting heat at 35-45 C. Diesel gensets provide backup power.",
+  "declared_wastes": []
+ },
+ {
+  "id": 63,
+  "name": "Sahyadri Hyperscale DC-1",
+  "type": "data_centre",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 809, Chakan MIDC",
+  "lat": 18.74399,
+  "lon": 73.82797,
+  "capacity": 7.5,
+  "capacity_unit": "MW IT load",
+  "process_description": "Hyperscale data hall using liquid-to-air cooling; return water leaves at about 45 C. Backup is diesel gensets tested monthly.",
+  "declared_wastes": []
+ },
+ {
+  "id": 64,
+  "name": "IndraNet Colocation Chakan",
+  "type": "data_centre",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 526, Mahalunge",
+  "lat": 18.73444,
+  "lon": 73.79893,
+  "capacity": 13.0,
+  "capacity_unit": "MW IT load",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 65,
+  "name": "Chakan Fresh Foods Pvt Ltd",
+  "type": "food_processing",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 775, Mahalunge",
+  "lat": 18.72787,
+  "lon": 73.79386,
+  "capacity": 1850,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 66,
+  "name": "Deccan Dairy & Snacks Pvt Ltd",
+  "type": "food_processing",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 808, Khed",
+  "lat": 18.81156,
+  "lon": 73.87835,
+  "capacity": 310,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Food waste"
+  ]
+ },
+ {
+  "id": 67,
+  "name": "Pune Fruit Pulp Processors",
+  "type": "food_processing",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 752, Mahalunge",
+  "lat": 18.72938,
+  "lon": 73.81002,
+  "capacity": 2470,
+  "capacity_unit": "t product/month",
+  "process_description": "Fruit and vegetable processing: washing, pulping, pasteurising and spray drying. Peels, pomace and rejects are collected from the sorting line.",
+  "declared_wastes": [
+   "Food waste"
+  ]
+ },
+ {
+  "id": 68,
+  "name": "Maval Agro Foods Pvt Ltd",
+  "type": "food_processing",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 515, Khed",
+  "lat": 18.81464,
+  "lon": 73.87286,
+  "capacity": 660,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 69,
+  "name": "Ready Bite Foods Pvt Ltd",
+  "type": "food_processing",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 667, Mahalunge",
+  "lat": 18.73741,
+  "lon": 73.79824,
+  "capacity": 2710,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 70,
+  "name": "Indrayani Frozen Foods Pvt Ltd",
+  "type": "food_processing",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 202, Khed",
+  "lat": 18.79924,
+  "lon": 73.86278,
+  "capacity": 1500,
+  "capacity_unit": "t product/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Food waste"
+  ]
+ },
+ {
+  "id": 71,
+  "name": "Chakan Precision Castings Pvt Ltd",
+  "type": "auto_components",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 824, Khed",
+  "lat": 18.79954,
+  "lon": 73.86218,
+  "capacity": 1670,
+  "capacity_unit": "t castings/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Metal scrap"
+  ]
+ },
+ {
+  "id": 72,
+  "name": "Bhosari Forge Tech Pvt Ltd",
+  "type": "auto_components",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 280, Mahalunge",
+  "lat": 18.73743,
+  "lon": 73.78993,
+  "capacity": 1840,
+  "capacity_unit": "t castings/month",
+  "process_description": "Forging and machining of crankshafts with acid pickling and phosphating lines. Machining generates turnings and bar ends.",
+  "declared_wastes": [
+   "Metal scrap"
+  ]
+ },
+ {
+  "id": 73,
+  "name": "Talegaon Brake Systems Pvt Ltd",
+  "type": "auto_components",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 196, Khed",
+  "lat": 18.78693,
+  "lon": 73.86723,
+  "capacity": 1080,
+  "capacity_unit": "t castings/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Metal scrap"
+  ]
+ },
+ {
+  "id": 74,
+  "name": "Mahalunge Auto Components Ltd",
+  "type": "auto_components",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 251, Mahalunge",
+  "lat": 18.72535,
+  "lon": 73.80648,
+  "capacity": 1160,
+  "capacity_unit": "t castings/month",
+  "process_description": null,
+  "declared_wastes": []
+ },
+ {
+  "id": 75,
+  "name": "Nighoje Gear Works Pvt Ltd",
+  "type": "auto_components",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 823, Khed",
+  "lat": 18.79931,
+  "lon": 73.88328,
+  "capacity": 240,
+  "capacity_unit": "t castings/month",
+  "process_description": null,
+  "declared_wastes": [
+   "Metal scrap"
+  ]
+ },
+ {
+  "id": 76,
+  "name": "Khed Polyhouse Farmers Co-op",
+  "type": "greenhouse",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 895, Chakan MIDC",
+  "lat": 18.75453,
+  "lon": 73.83092,
+  "capacity": 11.0,
+  "capacity_unit": "ha",
+  "process_description": "Polyhouse cluster growing capsicum, cucumber and exotic vegetables. LPG heaters are used on cold nights and bottled CO2 enrichment raises yield.",
+  "declared_wastes": [
+   "Crop residue"
+  ]
+ },
+ {
+  "id": 77,
+  "name": "Chakan Hydroponics Farm",
+  "type": "greenhouse",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 724, Mahalunge",
+  "lat": 18.7257,
+  "lon": 73.79196,
+  "capacity": 11.0,
+  "capacity_unit": "ha",
+  "process_description": null,
+  "declared_wastes": [
+   "Crop residue"
+  ]
+ },
+ {
+  "id": 78,
+  "name": "Mahalunge Exotic Greens",
+  "type": "greenhouse",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 677, Chakan MIDC",
+  "lat": 18.75868,
+  "lon": 73.84652,
+  "capacity": 5.0,
+  "capacity_unit": "ha",
+  "process_description": "Hydroponic greenhouse growing lettuce and tomatoes; grading rejects about 8% of produce.",
+  "declared_wastes": [
+   "Crop residue"
+  ]
+ },
+ {
+  "id": 79,
+  "name": "Chakan Bio-CNG Pvt Ltd",
+  "type": "biogas_plant",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 512, Khed",
+  "lat": 18.79637,
+  "lon": 73.86135,
+  "capacity": 3425,
+  "capacity_unit": "t feed/month",
+  "process_description": "Compressed biogas plant fed with food waste and agro-residue; digestate is dewatered and sold as manure.",
+  "declared_wastes": [
+   "Digestate"
+  ]
+ },
+ {
+  "id": 80,
+  "name": "Pune Organic Energy LLP",
+  "type": "biogas_plant",
+  "cluster": "Pune-Chakan Urban",
+  "address": "Gat No. 428, Mahalunge",
+  "lat": 18.72205,
+  "lon": 73.78997,
+  "capacity": 4925,
+  "capacity_unit": "t feed/month",
+  "process_description": "Compressed biogas plant fed with food waste and agro-residue; digestate is dewatered and sold as manure.",
+  "declared_wastes": [
+   "Digestate"
+  ]
+ }
+]

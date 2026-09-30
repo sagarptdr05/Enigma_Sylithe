@@ -1,0 +1,13 @@
+# Runtime dependencies (also what Vercel installs). Optional ML models: requirements-ml.txt. Tests: requirements-dev.txt.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+pydantic>=2.6
+networkx>=3.2
+ortools>=9.9
+numpy>=1.26
+anthropic>=0.40
+python-dotenv>=1.0
+python-multipart>=0.0.9
+pypdf>=4.0
+pillow>=10.0

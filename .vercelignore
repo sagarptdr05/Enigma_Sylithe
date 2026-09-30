@@ -1,0 +1,15 @@
+# Local-only files that must never be uploaded
+**/.venv
+**/venv
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+frontend/dist
+backend/*.db
+backend/uploads
+backend/outbox
+backend/tests
+backend/.env
+.env
+*.log
+backend/prebuilt

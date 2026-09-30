@@ -1,0 +1,148 @@
+{
+ "_note": "Demo company accounts for local testing/judging only. Password applies to all demo users.",
+ "password": "sylithex-demo-2026",
+ "users": [
+  {
+   "email": "plant.head@konkanispat.demo",
+   "contact_name": "Rajesh Patil",
+   "designation": "Plant Head",
+   "phone": "+91 98200 11021",
+   "industry": "Konkan Ispat Steel Ltd"
+  },
+  {
+   "email": "procurement@boisarcements.demo",
+   "contact_name": "Neha Kulkarni",
+   "designation": "Procurement Manager",
+   "phone": "+91 98220 44310",
+   "industry": "Boisar Portland Cements Ltd"
+  },
+  {
+   "email": "ehs@tridentnitro.demo",
+   "contact_name": "Imran Shaikh",
+   "designation": "EHS Manager",
+   "phone": "+91 97690 22187",
+   "industry": "Trident Nitro Compounds Pvt Ltd"
+  },
+  {
+   "email": "md@panchgangassk.demo",
+   "contact_name": "Suresh Jadhav",
+   "designation": "Managing Director",
+   "phone": "+91 94220 53018",
+   "industry": "Shri Panchganga Sahakari Sakhar Karkhana Ltd"
+  },
+  {
+   "email": "facilities@nexgenchakan.demo",
+   "contact_name": "Ananya Rao",
+   "designation": "Facilities Head",
+   "phone": "+91 99230 71452",
+   "industry": "NexGen Chakan Data Park"
+  },
+  {
+   "email": "procurement@raigadcement.demo",
+   "contact_name": "Priya Deshmukh",
+   "designation": "Head of Procurement",
+   "phone": "+91 98190 22417",
+   "industry": "Raigad Cement Works Ltd"
+  },
+  {
+   "email": "operations@deccanphosphates.demo",
+   "contact_name": "Vikram Joshi",
+   "designation": "GM Operations",
+   "phone": "+91 98231 66204",
+   "industry": "Deccan Phosphates & Fertilizers Ltd",
+   "visibility": "confidential"
+  },
+  {
+   "email": "cell@midc-symbiosis.demo",
+   "contact_name": "Anil Kadam",
+   "designation": "Industrial Symbiosis Facilitator",
+   "phone": "+91 22 2757 0000",
+   "industry": null,
+   "role": "facilitator"
+  }
+ ],
+ "inquiries": [
+  {
+   "key": "co2-request",
+   "from": "Trident Nitro Compounds Pvt Ltd",
+   "to": "Konkan Ispat Steel Ltd",
+   "waste": "CO2 off-gas",
+   "kind": "request",
+   "stage": "interest",
+   "message": "We use CO2 for carbonation and currently buy bottled CO2. Can we discuss a 12-month offtake from your off-gas once capture is installed?"
+  },
+  {
+   "key": "steel-slag-negotiation",
+   "from": "Konkan Ispat Steel Ltd",
+   "to": "Boisar Portland Cements Ltd",
+   "waste": "Steel slag",
+   "kind": "offer",
+   "stage": "negotiation",
+   "offer": {
+    "by": "supplier",
+    "price": 700,
+    "tonnes": 3000
+   },
+   "message": "Weathered and magnetically separated steel slag available from our plant, 0.9 km from your gate. Trial lot of 500 t possible this month."
+  },
+  {
+   "key": "bf-slag-completed",
+   "from": "Konkan Ispat Steel Ltd",
+   "to": "Boisar Portland Cements Ltd",
+   "waste": "BF slag",
+   "kind": "offer",
+   "stage": "completed",
+   "agreed": {
+    "price": 900,
+    "tonnes": 12000
+   },
+   "dispatched": 11850,
+   "received": 11850,
+   "message": "Granulated BF slag for your PSC line, lab report attached."
+  },
+  {
+   "key": "bagasse-committed",
+   "from": "Kolhapur Agro Papers Ltd",
+   "to": "Shri Panchganga Sahakari Sakhar Karkhana Ltd",
+   "waste": "Bagasse",
+   "kind": "request",
+   "stage": "dispatch",
+   "agreed": {
+    "price": 2100,
+    "tonnes": 6000
+   },
+   "message": "We want to replace imported wood fibre with depithed bagasse for the coming crushing season."
+  }
+ ],
+ "evidence": [
+  {
+   "industry": "Konkan Ispat Steel Ltd",
+   "waste": "BF slag",
+   "type": "lab_report",
+   "title": "BF slag chemical analysis - NABL lab (Mar 2026)",
+   "values": {
+    "CaO": 40.5,
+    "SiO2": 33.8,
+    "moisture": 7.5
+   },
+   "status": "verified",
+   "issuer": "NABL-accredited lab (illustrative)",
+   "issue_date": "2026-03-12",
+   "test_method": "XRF, IS 12089"
+  },
+  {
+   "industry": "Konkan Ispat Steel Ltd",
+   "waste": "Steel slag",
+   "type": "lab_report",
+   "title": "Steel slag chemistry (2024 campaign)",
+   "values": {
+    "CaO": 44.0,
+    "SiO2": 16.0
+   },
+   "status": "verified",
+   "issuer": "NABL-accredited lab (illustrative)",
+   "issue_date": "2024-06-01",
+   "test_method": "XRF"
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+[
+ {
+  "waste_name": "Waste heat",
+  "raw_material": "Process heat (drying)",
+  "steps": [
+   {
+    "step": "Heat exchanger",
+    "cost_per_tonne": 300
+   },
+   {
+    "step": "Heat-pump temperature lift",
+    "cost_per_tonne": 450
+   }
+  ]
+ },
+ {
+  "waste_name": "Fly ash",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Classification & dry handling",
+    "cost_per_tonne": 120
+   }
+  ]
+ },
+ {
+  "waste_name": "Bottom ash",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Drying",
+    "cost_per_tonne": 150
+   },
+   {
+    "step": "Grinding",
+    "cost_per_tonne": 180
+   }
+  ]
+ },
+ {
+  "waste_name": "BF slag",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Granulation check",
+    "cost_per_tonne": 60
+   },
+   {
+    "step": "Grinding",
+    "cost_per_tonne": 250
+   }
+  ]
+ },
+ {
+  "waste_name": "Steel slag",
+  "raw_material": "Granulated slag",
+  "steps": [
+   {
+    "step": "Weathering (volume stabilisation)",
+    "cost_per_tonne": 150
+   },
+   {
+    "step": "Magnetic separation",
+    "cost_per_tonne": 120
+   },
+   {
+    "step": "Grinding",
+    "cost_per_tonne": 250
+   }
+  ]
+ },
+ {
+  "waste_name": "Steel slag",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Magnetic separation",
+    "cost_per_tonne": 120
+   },
+   {
+    "step": "Crushing",
+    "cost_per_tonne": 90
+   }
+  ]
+ },
+ {
+  "waste_name": "Mill scale",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "De-oiling",
+    "cost_per_tonne": 200
+   },
+   {
+    "step": "Screening",
+    "cost_per_tonne": 60
+   }
+  ]
+ },
+ {
+  "waste_name": "Mill scale",
+  "raw_material": "Iron ore fines",
+  "steps": [
+   {
+    "step": "De-oiling",
+    "cost_per_tonne": 200
+   },
+   {
+    "step": "Briquetting / pelletising",
+    "cost_per_tonne": 450
+   }
+  ]
+ },
+ {
+  "waste_name": "Cement kiln dust",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Screening",
+    "cost_per_tonne": 60
+   }
+  ]
+ },
+ {
+  "waste_name": "Lime sludge",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Drying",
+    "cost_per_tonne": 250
+   },
+   {
+    "step": "De-lumping",
+    "cost_per_tonne": 60
+   }
+  ]
+ },
+ {
+  "waste_name": "Phosphogypsum",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Washing / neutralisation",
+    "cost_per_tonne": 350
+   },
+   {
+    "step": "Drying",
+    "cost_per_tonne": 200
+   }
+  ]
+ },
+ {
+  "waste_name": "Chemical gypsum",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Neutralisation",
+    "cost_per_tonne": 300
+   },
+   {
+    "step": "Drying",
+    "cost_per_tonne": 200
+   }
+  ]
+ },
+ {
+  "waste_name": "Spent acid",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Filtration & neutralisation check",
+    "cost_per_tonne": 400
+   },
+   {
+    "step": "Acid re-concentration",
+    "cost_per_tonne": 900
+   }
+  ]
+ },
+ {
+  "waste_name": "Spent acid",
+  "raw_material": "Pickling acid",
+  "steps": [
+   {
+    "step": "Filtration",
+    "cost_per_tonne": 400
+   },
+   {
+    "step": "Acid regeneration",
+    "cost_per_tonne": 1200
+   }
+  ]
+ },
+ {
+  "waste_name": "Bagasse",
+  "raw_material": "Wood fibre",
+  "steps": [
+   {
+    "step": "Depithing",
+    "cost_per_tonne": 350
+   },
+   {
+    "step": "Baling",
+    "cost_per_tonne": 150
+   }
+  ]
+ },
+ {
+  "waste_name": "Bagasse",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Baling / storage",
+    "cost_per_tonne": 150
+   },
+   {
+    "step": "Pelletising",
+    "cost_per_tonne": 450
+   }
+  ]
+ },
+ {
+  "waste_name": "Press mud",
+  "raw_material": "Organic manure filler",
+  "steps": [
+   {
+    "step": "Composting",
+    "cost_per_tonne": 300
+   },
+   {
+    "step": "Drying",
+    "cost_per_tonne": 150
+   }
+  ]
+ },
+ {
+  "waste_name": "Press mud",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Drying",
+    "cost_per_tonne": 250
+   }
+  ]
+ },
+ {
+  "waste_name": "Molasses",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Tanker transfer & storage",
+    "cost_per_tonne": 150
+   }
+  ]
+ },
+ {
+  "waste_name": "Spent wash",
+  "raw_material": "Potash (K2O source)",
+  "steps": [
+   {
+    "step": "Evaporation / concentration",
+    "cost_per_tonne": 350
+   },
+   {
+    "step": "Incineration to potash ash",
+    "cost_per_tonne": 250
+   }
+  ]
+ },
+ {
+  "waste_name": "Spent wash",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Bio-methanation pre-treatment",
+    "cost_per_tonne": 150
+   }
+  ]
+ },
+ {
+  "waste_name": "Yeast sludge",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Dewatering",
+    "cost_per_tonne": 150
+   }
+  ]
+ },
+ {
+  "waste_name": "Fibre sludge",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Dewatering",
+    "cost_per_tonne": 150
+   }
+  ]
+ },
+ {
+  "waste_name": "Food waste",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Segregation & shredding",
+    "cost_per_tonne": 200
+   }
+  ]
+ },
+ {
+  "waste_name": "Off-grade produce",
+  "raw_material": "Fresh produce",
+  "steps": [
+   {
+    "step": "Sorting & washing",
+    "cost_per_tonne": 400
+   }
+  ]
+ },
+ {
+  "waste_name": "Off-grade produce",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Shredding",
+    "cost_per_tonne": 100
+   }
+  ]
+ },
+ {
+  "waste_name": "Crop residue",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Chopping",
+    "cost_per_tonne": 120
+   }
+  ]
+ },
+ {
+  "waste_name": "Digestate",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Solid-liquid separation",
+    "cost_per_tonne": 150
+   },
+   {
+    "step": "Drying",
+    "cost_per_tonne": 120
+   }
+  ]
+ },
+ {
+  "waste_name": "Metal scrap",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Sorting & baling",
+    "cost_per_tonne": 900
+   }
+  ]
+ },
+ {
+  "waste_name": "Foundry sand",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Screening & magnetic separation",
+    "cost_per_tonne": 150
+   }
+  ]
+ },
+ {
+  "waste_name": "Brick bats",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Crushing",
+    "cost_per_tonne": 90
+   }
+  ]
+ },
+ {
+  "waste_name": "Waste heat",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Heat exchanger / hot-water loop",
+    "cost_per_tonne": 300
+   }
+  ]
+ },
+ {
+  "waste_name": "Surplus biogas",
+  "raw_material": "*",
+  "steps": [
+   {
+    "step": "Scrubbing & compression",
+    "cost_per_tonne": 1500
+   }
+  ]
+ }
+]

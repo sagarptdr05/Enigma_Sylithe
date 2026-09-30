@@ -1,0 +1,1052 @@
+[
+ {
+  "industry_type": "steel",
+  "waste_name": "BF slag",
+  "category": "mineral",
+  "generation_factor": 0.3,
+  "composition": {
+   "CaO": 40,
+   "SiO2": 34,
+   "Al2O3": 14,
+   "Fe2O3": 1,
+   "moisture": 8
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 250
+ },
+ {
+  "industry_type": "steel",
+  "waste_name": "Steel slag",
+  "category": "mineral",
+  "generation_factor": 0.14,
+  "composition": {
+   "CaO": 45,
+   "SiO2": 15,
+   "Fe2O3": 25,
+   "Al2O3": 4,
+   "moisture": 5
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 300
+ },
+ {
+  "industry_type": "steel",
+  "waste_name": "Mill scale",
+  "category": "metal",
+  "generation_factor": 0.02,
+  "composition": {
+   "Fe2O3": 92,
+   "Fe_pct": 70,
+   "moisture": 4
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": -3000
+ },
+ {
+  "industry_type": "steel",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 0.06,
+  "composition": {
+   "temperature_C": 350
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "steel",
+  "waste_name": "CO2 off-gas",
+  "category": "chemical",
+  "generation_factor": 0.9,
+  "composition": {
+   "CO2_pct": 22
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "cement",
+  "waste_name": "Cement kiln dust",
+  "category": "mineral",
+  "generation_factor": 0.02,
+  "composition": {
+   "CaO": 48,
+   "SiO2": 14,
+   "Al2O3": 4,
+   "moisture": 2
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 400
+ },
+ {
+  "industry_type": "cement",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 0.03,
+  "composition": {
+   "temperature_C": 350
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "cement",
+  "waste_name": "CO2 off-gas",
+  "category": "chemical",
+  "generation_factor": 0.6,
+  "composition": {
+   "CO2_pct": 25
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "thermal_power",
+  "waste_name": "Fly ash",
+  "category": "mineral",
+  "generation_factor": 95,
+  "composition": {
+   "SiO2": 58,
+   "Al2O3": 27,
+   "Fe2O3": 6,
+   "CaO": 2.5,
+   "moisture": 1
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 350
+ },
+ {
+  "industry_type": "thermal_power",
+  "waste_name": "Bottom ash",
+  "category": "mineral",
+  "generation_factor": 24,
+  "composition": {
+   "SiO2": 55,
+   "Al2O3": 22,
+   "Fe2O3": 8,
+   "CaO": 3,
+   "moisture": 18,
+   "calorific_value_MJkg": 2
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 300
+ },
+ {
+  "industry_type": "thermal_power",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 150,
+  "composition": {
+   "temperature_C": 120
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "thermal_power",
+  "waste_name": "CO2 off-gas",
+  "category": "chemical",
+  "generation_factor": 450,
+  "composition": {
+   "CO2_pct": 13
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "sugar_mill",
+  "waste_name": "Bagasse",
+  "category": "organic",
+  "generation_factor": 0.28,
+  "composition": {
+   "moisture": 50,
+   "calorific_value_MJkg": 9.6,
+   "organic_pct": 95
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   0.95,
+   0.8,
+   0.3,
+   0.05,
+   0.0,
+   0.0,
+   0.05,
+   0.4,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": -1800
+ },
+ {
+  "industry_type": "sugar_mill",
+  "waste_name": "Press mud",
+  "category": "organic",
+  "generation_factor": 0.035,
+  "composition": {
+   "moisture": 70,
+   "organic_pct": 60,
+   "CaO": 8,
+   "calorific_value_MJkg": 5.0
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   0.95,
+   0.8,
+   0.3,
+   0.05,
+   0.0,
+   0.0,
+   0.05,
+   0.4,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 200
+ },
+ {
+  "industry_type": "sugar_mill",
+  "waste_name": "Molasses",
+  "category": "organic",
+  "generation_factor": 0.045,
+  "composition": {
+   "organic_pct": 55,
+   "moisture": 20
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   0.95,
+   0.8,
+   0.3,
+   0.05,
+   0.0,
+   0.0,
+   0.05,
+   0.4,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": -8500
+ },
+ {
+  "industry_type": "distillery",
+  "waste_name": "Spent wash",
+  "category": "water",
+  "generation_factor": 10,
+  "composition": {
+   "K2O_pct": 1.4,
+   "organic_pct": 10,
+   "moisture": 90
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   0.9,
+   0.5,
+   0.1,
+   0.05,
+   0.05,
+   0.1,
+   0.5,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 450
+ },
+ {
+  "industry_type": "distillery",
+  "waste_name": "CO2 off-gas",
+  "category": "chemical",
+  "generation_factor": 0.76,
+  "composition": {
+   "CO2_pct": 98
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   0.9,
+   0.5,
+   0.1,
+   0.05,
+   0.05,
+   0.1,
+   0.5,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "distillery",
+  "waste_name": "Yeast sludge",
+  "category": "organic",
+  "generation_factor": 0.08,
+  "composition": {
+   "organic_pct": 70,
+   "moisture": 80
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   0.9,
+   0.5,
+   0.1,
+   0.05,
+   0.05,
+   0.1,
+   0.5,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 300
+ },
+ {
+  "industry_type": "paper_mill",
+  "waste_name": "Lime sludge",
+  "category": "mineral",
+  "generation_factor": 0.35,
+  "composition": {
+   "CaO": 48,
+   "SiO2": 3,
+   "moisture": 30
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 350
+ },
+ {
+  "industry_type": "paper_mill",
+  "waste_name": "Fibre sludge",
+  "category": "organic",
+  "generation_factor": 0.08,
+  "composition": {
+   "organic_pct": 60,
+   "moisture": 65
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 400
+ },
+ {
+  "industry_type": "paper_mill",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 0.4,
+  "composition": {
+   "temperature_C": 90
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "brick_kiln",
+  "waste_name": "Brick bats",
+  "category": "mineral",
+  "generation_factor": 0.03,
+  "composition": {
+   "SiO2": 60,
+   "Al2O3": 18,
+   "moisture": 2
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8,
+   0.1,
+   0.0,
+   0.0,
+   0.1,
+   0.6,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 80
+ },
+ {
+  "industry_type": "brick_kiln",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 0.15,
+  "composition": {
+   "temperature_C": 200
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8,
+   0.1,
+   0.0,
+   0.0,
+   0.1,
+   0.6,
+   0.9,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "fertilizer_phosphate",
+  "waste_name": "Phosphogypsum",
+  "category": "mineral",
+  "generation_factor": 4.5,
+  "composition": {
+   "CaO": 31,
+   "SiO2": 2,
+   "moisture": 20
+  },
+  "hazardous": true,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 500
+ },
+ {
+  "industry_type": "fertilizer_phosphate",
+  "waste_name": "Spent acid",
+  "category": "chemical",
+  "generation_factor": 0.08,
+  "composition": {
+   "acid_pct": 45,
+   "moisture": 50
+  },
+  "hazardous": true,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 2500
+ },
+ {
+  "industry_type": "fertilizer_phosphate",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 0.8,
+  "composition": {
+   "temperature_C": 180
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "chemical",
+  "waste_name": "Spent acid",
+  "category": "chemical",
+  "generation_factor": 0.08,
+  "composition": {
+   "acid_pct": 70,
+   "moisture": 28
+  },
+  "hazardous": true,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 3000
+ },
+ {
+  "industry_type": "chemical",
+  "waste_name": "Chemical gypsum",
+  "category": "mineral",
+  "generation_factor": 0.12,
+  "composition": {
+   "CaO": 30,
+   "SiO2": 3,
+   "moisture": 25
+  },
+  "hazardous": true,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 1200
+ },
+ {
+  "industry_type": "chemical",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 0.5,
+  "composition": {
+   "temperature_C": 160
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "data_centre",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 600,
+  "composition": {
+   "temperature_C": 45
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "food_processing",
+  "waste_name": "Food waste",
+  "category": "organic",
+  "generation_factor": 0.15,
+  "composition": {
+   "organic_pct": 85,
+   "moisture": 78
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 600
+ },
+ {
+  "industry_type": "food_processing",
+  "waste_name": "Waste heat",
+  "category": "energy",
+  "generation_factor": 0.2,
+  "composition": {
+   "temperature_C": 70
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "auto_components",
+  "waste_name": "Metal scrap",
+  "category": "metal",
+  "generation_factor": 0.12,
+  "composition": {
+   "Fe_pct": 96,
+   "moisture": 0
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": -26000
+ },
+ {
+  "industry_type": "auto_components",
+  "waste_name": "Spent acid",
+  "category": "chemical",
+  "generation_factor": 0.01,
+  "composition": {
+   "acid_pct": 18,
+   "moisture": 80
+  },
+  "hazardous": true,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 3500
+ },
+ {
+  "industry_type": "auto_components",
+  "waste_name": "Foundry sand",
+  "category": "mineral",
+  "generation_factor": 0.2,
+  "composition": {
+   "SiO2": 88,
+   "Al2O3": 4,
+   "moisture": 3
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 450
+ },
+ {
+  "industry_type": "greenhouse",
+  "waste_name": "Off-grade produce",
+  "category": "organic",
+  "generation_factor": 3.0,
+  "composition": {
+   "organic_pct": 92,
+   "moisture": 88
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   0.9,
+   0.6,
+   0.3,
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.3,
+   0.5,
+   0.8,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 300
+ },
+ {
+  "industry_type": "greenhouse",
+  "waste_name": "Crop residue",
+  "category": "organic",
+  "generation_factor": 5.0,
+  "composition": {
+   "organic_pct": 85,
+   "moisture": 60
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 200
+ },
+ {
+  "industry_type": "biogas_plant",
+  "waste_name": "Digestate",
+  "category": "organic",
+  "generation_factor": 0.3,
+  "composition": {
+   "organic_pct": 45,
+   "moisture": 70
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 150
+ },
+ {
+  "industry_type": "biogas_plant",
+  "waste_name": "Surplus biogas",
+  "category": "energy",
+  "generation_factor": 0.2,
+  "composition": {
+   "calorific_value_MJkg": 20
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ },
+ {
+  "industry_type": "biogas_plant",
+  "waste_name": "CO2 off-gas",
+  "category": "chemical",
+  "generation_factor": 0.05,
+  "composition": {
+   "CO2_pct": 95
+  },
+  "hazardous": false,
+  "seasonality": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "disposal_cost_per_tonne": 0
+ }
+]

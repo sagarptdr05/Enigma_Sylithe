@@ -1,0 +1,3 @@
+# Optional: sentence embeddings (name matching) and CLIP (photo recognition).
+# Without these the app uses difflib and the colour/texture photo descriptor. Too large for a Vercel Function.
+sentence-transformers>=2.6

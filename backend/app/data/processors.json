@@ -1,0 +1,28 @@
+{
+  "_note": "Synthetic processing facilities for Missing Link Discovery. Capacities, yields and costs are illustrative and must be confirmed with the operator.",
+  "processors": [
+    {"id": "P1", "name": "Taloja Drying & Grinding Hub", "cluster": "Taloja MIDC", "lat": 19.071, "lon": 73.131,
+     "accepts": ["Phosphogypsum", "Chemical gypsum", "Lime sludge", "Bottom ash"], "output_label": "Dried, ground mineral",
+     "sets": {"moisture": 6}, "yield": 0.9, "cost_per_tonne": 420, "capacity_tpm": 6000, "steps": ["Drying", "Grinding"],
+     "unresolved": ["Operator has not confirmed acceptance of hazardous inputs"]},
+    {"id": "P2", "name": "Taloja Gypsum Purification Unit", "cluster": "Taloja MIDC", "lat": 19.094, "lon": 73.107,
+     "accepts": ["Phosphogypsum", "Chemical gypsum"], "output_label": "Washed, neutralised gypsum",
+     "sets": {"moisture": 10, "purity_pct": 90}, "yield": 0.85, "cost_per_tonne": 650, "capacity_tpm": 3000, "steps": ["Washing / neutralisation", "Drying"],
+     "unresolved": ["Output purity is the operator's typical value, not a tested result"]},
+    {"id": "P3", "name": "Boisar Acid Regeneration Unit", "cluster": "Tarapur MIDC", "lat": 19.806, "lon": 72.737,
+     "accepts": ["Spent acid"], "output_label": "Regenerated acid", "sets": {"acid_pct": 70, "moisture": 28}, "yield": 0.85, "cost_per_tonne": 1300,
+     "capacity_tpm": 800, "steps": ["Filtration", "Acid regeneration"], "unresolved": ["MPCB authorisation of the regeneration unit to be checked"]},
+    {"id": "P4", "name": "Palghar Slag Weathering Yard", "cluster": "Tarapur MIDC", "lat": 19.826, "lon": 72.711,
+     "accepts": ["Steel slag"], "output_label": "Weathered, metal-free slag", "sets": {"Fe2O3": 12, "SiO2": 28}, "yield": 0.88, "cost_per_tonne": 360,
+     "capacity_tpm": 10000, "steps": ["Weathering", "Magnetic separation", "Grinding"], "unresolved": ["Volume-stability test after weathering"]},
+    {"id": "P5", "name": "Kagal Biomass Pelletising Unit", "cluster": "Kolhapur Agro Belt", "lat": 16.585, "lon": 74.318,
+     "accepts": ["Bagasse", "Press mud"], "output_label": "Biomass pellets", "sets": {"moisture": 10, "calorific_value_MJkg": 16}, "yield": 0.55,
+     "cost_per_tonne": 700, "capacity_tpm": 8000, "steps": ["Drying", "Pelletising"], "unresolved": ["Pellet calorific value to be tested per batch"]},
+    {"id": "P6", "name": "Warana Composting Cooperative", "cluster": "Kolhapur Agro Belt", "lat": 16.855, "lon": 74.205,
+     "accepts": ["Press mud", "Yeast sludge", "Fibre sludge"], "output_label": "Stabilised compost", "sets": {"moisture": 30, "organic_pct": 45},
+     "yield": 0.6, "cost_per_tonne": 300, "capacity_tpm": 5000, "steps": ["Composting"], "unresolved": ["NPK content of finished compost"]},
+    {"id": "P7", "name": "Chakan Organics Pre-processing", "cluster": "Pune-Chakan Urban", "lat": 18.762, "lon": 73.852,
+     "accepts": ["Food waste", "Off-grade produce", "Crop residue"], "output_label": "Shredded organic feed", "sets": {"moisture": 80},
+     "yield": 0.95, "cost_per_tonne": 180, "capacity_tpm": 3000, "steps": ["Segregation & shredding"], "unresolved": ["Contaminant screening"]}
+  ]
+}
